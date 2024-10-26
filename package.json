@@ -1,0 +1,40 @@
+{
+
+  "name": "graphql-server-example",
+
+  "version": "1.0.0",
+
+  "description": "",
+
+  "main": "app.js",
+
+  "type": "module",
+
+  "scripts": {
+
+    "compile": "tsc",
+
+    "dev": "npm run compile && node ./dist/app.js",
+
+    "start": "node ./dist/app.js"
+
+  },
+
+  "dependencies": {
+
+    "@apollo/server": "^4.11.0",
+
+    "graphql": "^16.9.0",
+
+    "typescript": "^5.6.3"
+
+  },
+
+  "devDependencies": {
+
+    "@types/node": "^22.7.9"
+
+  }
+
+}
+
